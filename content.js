@@ -1,6 +1,4 @@
 chrome.storage.sync.get('url', function (data) {
-    console.log(data.url);
-    console.log(document.URL);
     if(data.url === document.URL) {
         var userField = document.getElementById("user");
         var passField = document.getElementById("password");
