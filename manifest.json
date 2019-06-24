@@ -1,0 +1,12 @@
+{
+    "name": "Auto Wifi Login",
+    "version": "1.0",
+    "description": "Automatically log into your wifi",
+    "permissions": ["storage"],
+    "content_scripts": [{
+        "js": ["content.js"],
+        "matches": ["<all_urls>"]
+      }],
+    "options_page": "options.html",
+    "manifest_version": 2
+  }
